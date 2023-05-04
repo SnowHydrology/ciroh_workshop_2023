@@ -1,0 +1,3 @@
+# Linear reservoir model configuration
+k: 0.25              # loss factor parameter for linear reservoir
+discharge_init: 10 # initial discharge (mm d-1)

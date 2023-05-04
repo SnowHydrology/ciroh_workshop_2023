@@ -1,0 +1,11 @@
+# Snow model configuration
+rs_method: 1         # 1 = single threshold, 2 = dual threshold
+rs_thresh: 2.5       # rain-snow temperature threshold when rs_method = 1 (°C)
+snow_thresh_max: 1.5 # maximum all-snow temp when rs_method = 2 (°C)
+rain_thresh_min: 4.5 # minimum all-rain temp when rs_method = 2 (°C)
+ddf_max: 2           # maximum degree day melt factor (mm/day/°C)
+ddf_min: 0           # minimum degree day melt factor (mm/day/°C)
+tair_melt_thresh: 1  # air temperature threshold above which melt can occur (°C)
+swe_init: 0          # initial snow water equivalent (mm)
+dayofyear: 274       # Day of year of simulation start (ex: 1 = Jan 1, 274 = Oct 1)
+year: 2020           # year of simulation start
